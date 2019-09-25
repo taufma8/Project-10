@@ -1,0 +1,31 @@
+{
+  "name": "project10-api",
+  "version": "0.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "seed": "cross-env DB_ENABLE_LOGGING=true node './seed'"
+  },
+  "keywords": [],
+  "author": "Rhonda Laurence",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
+    "debug": "^2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^6.2.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "promise.prototype.finally": "^3.1.0",
+    "sequelize": "^5.16.0",
+    "sequelize-cli": "^5.5.0",
+    "sqlite3": "^4.0.2"
+  }
+}
